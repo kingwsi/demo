@@ -23,7 +23,12 @@ public class MapDemo {
             }
         });
         objectObjectTreeMap.add("a");
-        objectObjectTreeMap.add("b");
         objectObjectTreeMap.add("c");
+        objectObjectTreeMap.add("b");
+        objectObjectTreeMap.add("e");
+        objectObjectTreeMap.add("g");
+        objectObjectTreeMap.add("f");
+        objectObjectTreeMap.add("d");
+        System.out.println(objectObjectTreeMap);
     }
 }
