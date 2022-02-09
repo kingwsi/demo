@@ -11,13 +11,14 @@
 - 有序性 synchronized
 
 #### 线程池
-##### 5种类型
+##### 6种类型
 - 1.newFixedThreadPool 固定大小线程池：
 - 2.newSingleThreadExecutor 单线程线程池：
 - 3.newCachedThreadPool 缓存线程池：最大长度 Integer.MAX_VALUE 小心OOM
 - 4.newSingleThreadScheduledExecutor 延迟单线程池：可按固定周期执行，单线程
 - 5.newScheduledThreadPool 延迟线程池：可执行任务的线程池
 - 6.newWorkStealingPool 抢占式线程池：没有顺序 抢占式 1.8新增
+- 7.ForkJoinPool
 
 ##### 7个参数
 - 1.核心线程数
