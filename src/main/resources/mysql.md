@@ -12,7 +12,7 @@
 #### sql执行顺序
 FORM - WHERE - GROUP BY - HAVING - ORDER BY - LIMIT - OFFSET
 #### 索引
-联合索引 最左匹配原则 https://zhuanlan.zhihu.com/p/115778804
+联合索引 最左匹配原则 [详细说明](https://zhuanlan.zhihu.com/p/115778804)
 ##### 1.SELECT * FROM table WHERE a = 1 and b = 2 and c = 3;
 (a,b,c) (c,b,a) (b,c,a)
 

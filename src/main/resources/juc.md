@@ -50,3 +50,5 @@ AtomicReference<T> 可以把我们自己的对象包装成原子对象
 - ABA问题
 ##### ABA问题 如何解决
 使用带版本号的包装类 AtomicStampedReference<?>
+
+##### 线程状态

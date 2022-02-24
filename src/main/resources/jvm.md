@@ -64,3 +64,7 @@ Eden form to(可交换) young GC
 - 标记-清除：老年代一般由标记清除和标记整理混合实现
         内存碎片问题/扫描两遍，先标记，再清除
 - 标记压缩
+
+#### 版本区别
+jdk1.7 默认垃圾收集器Parallel Scavenge（新生代【标记-复制算法】）+Parallel Old（老年代【标记整理算法】）
+jdk1.8 ParallelGC
